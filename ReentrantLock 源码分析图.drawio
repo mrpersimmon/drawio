@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T09:07:50.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="zX1zYDiYGx_qiHw81-wr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T15:14:54.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_0O6zaHnft9QD3Yu2RvF" version="21.2.9" type="github">
   <diagram name="第 1 页" id="k-iB7_e0VkxcQ69KIvBo">
-    <mxGraphModel>
+    <mxGraphModel dx="1292" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-2" value="&lt;h1&gt;AQS关键信息&lt;/h1&gt;&lt;div&gt;1. 自旋等待 spinLocks&lt;/div&gt;&lt;div&gt;2. state 变量判断是否阻塞&lt;/div&gt;&lt;div&gt;3. 尾部入队&lt;/div&gt;&lt;div&gt;4. 头部出队&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-3" value="Node 关键属性" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;fontSize=20;glass=0;shadow=0;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="355" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-4" value="- SHARED&amp;nbsp; 线程以共享的模式等待锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="30" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-5" value="- EXCLUSIVE 线程以独占的方式等待锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="60" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-6" value="- waitStatus「volatile」&amp;nbsp; 当前节点在队列中的状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="110" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-11" value="- thread「volatile」&amp;nbsp;处于该节点的线程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="170" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-12" value="- prev「volatile」&amp;nbsp;前驱指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="200" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-13" value="- next「volatile」 后继指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="230" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-16" value="- predecessor() 返回前驱节点，没有的话抛出 npe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="260" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-17" value="- nextWaiter()&amp;nbsp; 指向下一个处于 CONDITION 状态的节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+          <mxGeometry y="320" width="355" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
