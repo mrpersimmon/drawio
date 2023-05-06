@@ -1,38 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T15:14:54.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_0O6zaHnft9QD3Yu2RvF" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T16:31:07.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="SBHz0r4w-cq19xarUvyi" version="21.2.9" type="github">
   <diagram name="第 1 页" id="k-iB7_e0VkxcQ69KIvBo">
-    <mxGraphModel dx="1292" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-2" value="&lt;h1&gt;AQS关键信息&lt;/h1&gt;&lt;div&gt;1. 自旋等待 spinLocks&lt;/div&gt;&lt;div&gt;2. state 变量判断是否阻塞&lt;/div&gt;&lt;div&gt;3. 尾部入队&lt;/div&gt;&lt;div&gt;4. 头部出队&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="260" height="330" as="geometry" />
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-2" value="&lt;h1&gt;AQS关键信息&lt;/h1&gt;&lt;div&gt;如果共享资源被占用，&lt;font color=&quot;#ff3333&quot;&gt;就需要一定的阻塞等待唤醒机制来保证锁分配&lt;/font&gt;。&lt;/div&gt;&lt;div&gt;1. 自旋等待 spinLocks&lt;/div&gt;&lt;div&gt;2. state 变量判断是否阻塞&lt;/div&gt;&lt;div&gt;3. 尾部入队&lt;/div&gt;&lt;div&gt;4. 头部出队&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="1">
+          <mxGeometry y="-220" width="520" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-3" value="Node 关键属性" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;fontSize=20;glass=0;shadow=0;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-3" value="Node 关键属性" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;glass=0;shadow=0;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="240" width="355" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-4" value="- SHARED&amp;nbsp; 线程以共享的模式等待锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-4" value="- SHARED&amp;nbsp; 线程以共享的模式等待锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="30" width="355" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-5" value="- EXCLUSIVE 线程以独占的方式等待锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-5" value="- EXCLUSIVE 线程以独占的方式等待锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="60" width="355" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-6" value="- waitStatus「volatile」&amp;nbsp; 当前节点在队列中的状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-6" value="- waitStatus「volatile」&amp;nbsp; 当前节点在队列中的状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="110" width="355" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-11" value="- thread「volatile」&amp;nbsp;处于该节点的线程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-11" value="- thread「volatile」&amp;nbsp;处于该节点的线程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="170" width="355" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-12" value="- prev「volatile」&amp;nbsp;前驱指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-12" value="- prev「volatile」&amp;nbsp;前驱指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="200" width="355" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-13" value="- next「volatile」 后继指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-13" value="- next「volatile」 后继指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="230" width="355" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-16" value="- predecessor() 返回前驱节点，没有的话抛出 npe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-16" value="- predecessor( ) 返回前驱节点，没有的话抛出 NPE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="260" width="355" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nvKdTtV5nxLTV3sjEAqT-17" value="- nextWaiter()&amp;nbsp; 指向下一个处于 CONDITION 状态的节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL XiaoWei;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BXiaoWei;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-17" value="- nextWaiter( )&amp;nbsp; 指向下一个处于 CONDITION 状态的节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-3">
           <mxGeometry y="320" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-23" value="waitStatus 状态值" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;glass=0;shadow=0;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="250" width="355" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-24" value="0 当一个 Node 被初始化的时候的默认值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-23">
+          <mxGeometry y="30" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-32" value="CANCELLED(1) 线程获取锁的请求已经取消了" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-23">
+          <mxGeometry y="90" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-33" value="SIGNAL(-1) 表示线程已经准备好了，就等待资源释放了" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-23">
+          <mxGeometry y="150" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-34" value="CONDITION(-2) 表示节点在等待队列中，节点线程等待唤醒" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-23">
+          <mxGeometry y="210" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-35" value="PROPAGATE(-3) 当前线程处在 SHARED 情况下，该字段才会使用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-23">
+          <mxGeometry y="270" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;startSize=30;" edge="1" parent="1" source="nvKdTtV5nxLTV3sjEAqT-6" target="nvKdTtV5nxLTV3sjEAqT-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-40" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;fillColor=none;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-41" value="同步器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-58" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;dashed=1;dashPattern=8 8;startArrow=none;startFill=0;strokeWidth=1;rounded=1;" edge="1" parent="1" source="nvKdTtV5nxLTV3sjEAqT-42" target="nvKdTtV5nxLTV3sjEAqT-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-59" value="setHead( )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;" vertex="1" connectable="0" parent="nvKdTtV5nxLTV3sjEAqT-58">
+          <mxGeometry x="-0.2182" y="6" relative="1" as="geometry">
+            <mxPoint x="18" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-42" value="head" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-74" style="edgeStyle=orthogonalEdgeStyle;shape=connector;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;labelBackgroundColor=default;strokeColor=default;strokeWidth=1;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;startArrow=none;startFill=0;endArrow=classic;rounded=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="nvKdTtV5nxLTV3sjEAqT-43" target="nvKdTtV5nxLTV3sjEAqT-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="150" />
+              <mxPoint x="640" y="190" />
+              <mxPoint x="1290" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-75" value="compareAndSetTail( )" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;" vertex="1" connectable="0" parent="nvKdTtV5nxLTV3sjEAqT-74">
+          <mxGeometry x="-0.0773" y="-1" relative="1" as="geometry">
+            <mxPoint x="54" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-43" value="tail" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-45" value="Node1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-46" value="prev" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;labelBorderColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-45">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-47" value="next" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-45">
+          <mxGeometry y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-60" value="Node2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="40" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-61" value="prev" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;labelBorderColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-60">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-62" value="next" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-60">
+          <mxGeometry y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-63" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;dashed=1;dashPattern=8 8;startArrow=none;startFill=0;strokeWidth=1;rounded=1;" edge="1" parent="1" source="nvKdTtV5nxLTV3sjEAqT-61" target="nvKdTtV5nxLTV3sjEAqT-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-64" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;dashed=1;dashPattern=8 8;startArrow=none;startFill=0;strokeWidth=1;rounded=1;" edge="1" parent="1" source="nvKdTtV5nxLTV3sjEAqT-47" target="nvKdTtV5nxLTV3sjEAqT-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-65" value="Node2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="40" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-66" value="prev" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;labelBorderColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-65">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-67" value="next" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=ZCOOL KuaiLe;fontColor=default;" vertex="1" parent="nvKdTtV5nxLTV3sjEAqT-65">
+          <mxGeometry y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-68" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;dashed=1;dashPattern=8 8;startArrow=none;startFill=0;strokeWidth=1;rounded=1;" edge="1" parent="1" source="nvKdTtV5nxLTV3sjEAqT-66" target="nvKdTtV5nxLTV3sjEAqT-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-70" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;endArrow=classic;dashed=1;dashPattern=8 8;startArrow=none;startFill=0;strokeWidth=1;rounded=1;" edge="1" parent="1" source="nvKdTtV5nxLTV3sjEAqT-62" target="nvKdTtV5nxLTV3sjEAqT-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nvKdTtV5nxLTV3sjEAqT-76" value="state" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=ZCOOL KuaiLe;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DZCOOL%2BKuaiLe;fontSize=20;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-120" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
