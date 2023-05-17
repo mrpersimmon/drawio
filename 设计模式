@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T12:28:51.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cxzlKeRKyLLDgmcASQ0H" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T15:44:46.183Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="YTcm7EAjlnY6oaIOTHm3" version="21.3.2" type="github" pages="2">
   <diagram name="装饰器模式" id="JLZPhykSnUyYuSLSldfL">
     <mxGraphModel dx="1589" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,6 +144,86 @@
         </mxCell>
         <mxCell id="W554QbHBj0AIUOeeID9--49" value="&lt;font face=&quot;FZZJ-JHTJW&quot;&gt;装饰者可以加上新的方法。新行为是通过在旧行为前面或后面加一些功能代码来添加的。&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;strokeColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="810" y="770" width="153" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P86ijttd0bR3CDiUrcYF" name="Java IO 是如何使用装饰者模式的">
+    <mxGraphModel dx="1589" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-1" value="InputStream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#d6b656;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;startSize=26;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-9" style="shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=block;endFill=0;startSize=20;endSize=20;" edge="1" parent="1" source="Tchc-OzJmfuqur-4nPlW-3" target="Tchc-OzJmfuqur-4nPlW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-3" value="FileInputStream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#6c8ebf;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;startSize=26;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-10" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=block;endFill=0;startSize=20;endSize=20;" edge="1" parent="1" source="Tchc-OzJmfuqur-4nPlW-4" target="Tchc-OzJmfuqur-4nPlW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-4" value="ObjectInputStream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#6c8ebf;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;startSize=26;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-11" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=block;endFill=0;startSize=20;endSize=20;" edge="1" parent="1" source="Tchc-OzJmfuqur-4nPlW-5" target="Tchc-OzJmfuqur-4nPlW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-5" value="FilterInputStream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#b85450;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;startSize=26;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-14" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=block;endFill=0;startSize=20;endSize=20;" edge="1" parent="1" source="Tchc-OzJmfuqur-4nPlW-6" target="Tchc-OzJmfuqur-4nPlW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-6" value="PushbackInputStream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#b85450;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;startSize=26;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-13" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=block;endFill=0;startSize=20;endSize=20;" edge="1" parent="1" source="Tchc-OzJmfuqur-4nPlW-7" target="Tchc-OzJmfuqur-4nPlW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-7" value="BufferedInputStream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#b85450;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;startSize=26;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-12" style="edgeStyle=none;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=block;endFill=0;startSize=20;endSize=20;" edge="1" parent="1" source="Tchc-OzJmfuqur-4nPlW-8" target="Tchc-OzJmfuqur-4nPlW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-8" value="DataInputStream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#b85450;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;startSize=26;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#d6b656;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=open;endFill=0;startSize=20;endSize=20;curved=1;fillColor=#fff2cc;" edge="1" parent="1" source="Tchc-OzJmfuqur-4nPlW-15" target="Tchc-OzJmfuqur-4nPlW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tchc-OzJmfuqur-4nPlW-15" value="&lt;font face=&quot;FZZJ-JHTJW&quot;&gt;抽象组件&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="530" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=open;endFill=0;startSize=20;endSize=20;fillColor=#f8cecc;curved=1;" edge="1" parent="1" source="SkAjTffYqLlhUPq9yqnK-1" target="Tchc-OzJmfuqur-4nPlW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-1" value="&lt;font face=&quot;FZZJ-JHTJW&quot;&gt;装饰者&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="730" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=open;endFill=0;startSize=20;endSize=20;curved=1;fillColor=#f8cecc;" edge="1" parent="1" source="SkAjTffYqLlhUPq9yqnK-3" target="Tchc-OzJmfuqur-4nPlW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=open;endFill=0;startSize=20;endSize=20;curved=1;fillColor=#f8cecc;" edge="1" parent="1" source="SkAjTffYqLlhUPq9yqnK-3" target="Tchc-OzJmfuqur-4nPlW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.555;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=open;endFill=0;startSize=20;endSize=20;fillColor=#f8cecc;" edge="1" parent="1" source="SkAjTffYqLlhUPq9yqnK-3" target="Tchc-OzJmfuqur-4nPlW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-3" value="&lt;font face=&quot;FZZJ-JHTJW&quot;&gt;具体的装饰者&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="414" y="585" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#6c8ebf;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=open;endFill=0;startSize=20;endSize=20;fillColor=#dae8fc;" edge="1" parent="1" source="SkAjTffYqLlhUPq9yqnK-7" target="Tchc-OzJmfuqur-4nPlW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#6c8ebf;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=open;endFill=0;startSize=20;endSize=20;fillColor=#dae8fc;" edge="1" parent="1" source="SkAjTffYqLlhUPq9yqnK-7" target="Tchc-OzJmfuqur-4nPlW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SkAjTffYqLlhUPq9yqnK-7" value="&lt;font face=&quot;FZZJ-JHTJW&quot;&gt;可以被装饰者包起来的具体组件&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="430" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
