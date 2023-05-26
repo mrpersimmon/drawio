@@ -1,9 +1,134 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T06:59:21.307Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.3" etag="Xe2PLux7v_AIIXZtt4YM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T07:22:04.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rgrom31gB1X6sCGw8e_B" version="21.3.3" type="github">
   <diagram name="第 1 页" id="3MQboZlXyouc1U6FLTB5">
-    <mxGraphModel>
+    <mxGraphModel dx="1196" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-39" value="" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#d79b00;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1780" width="530" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-18" value="" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#82b366;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="350" y="810" width="530" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-11" value="" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#6c8ebf;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="530" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-1" value="Class" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-2" value="BeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-3" target="22Q7JOI0MpEQg2JFA-fp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-3" value="扫描&lt;br&gt;&amp;nbsp;XML/注解/JavaConfig&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-4" value="启动" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-5" target="22Q7JOI0MpEQg2JFA-fp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-5" value="找到&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;需要被 Spring 管理的 Bean 信息" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-7" target="22Q7JOI0MpEQg2JFA-fp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-7" value="封装成 BeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-9" target="22Q7JOI0MpEQg2JFA-fp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-9" value="放入到 BeanDefinitionMap" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-12" value="&lt;br&gt;将&lt;br&gt;定&lt;br&gt;义&lt;br&gt;的&lt;br&gt;元&lt;br&gt;数&lt;br&gt;据&lt;br&gt;加&lt;br&gt;载&lt;br&gt;起&lt;br&gt;来&lt;br&gt;，&lt;br&gt;真&lt;br&gt;实的对象还没实例化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontFamily=FZZJ-JHTJW;fontColor=default;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="30" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-14" target="22Q7JOI0MpEQg2JFA-fp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-14" value="遍历 BeanDefinitionMap" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="840" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-16" target="22Q7JOI0MpEQg2JFA-fp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-16" value="执行 &lt;br&gt;BeanFactoryPostProcessor&amp;nbsp; &lt;br&gt;后置处理器的逻辑" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1000" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-19" value="可对 Bean 元信息进行修改" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontFamily=FZZJ-JHTJW;fontColor=default;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="780" y="770" width="30" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-20" target="22Q7JOI0MpEQg2JFA-fp-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-20" value="使用反射&lt;br&gt;选择合适的构造器&lt;br&gt;实例化对象" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1160" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-22" target="22Q7JOI0MpEQg2JFA-fp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-22" value="注入对象相关属性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1320" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-24" target="22Q7JOI0MpEQg2JFA-fp-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-28" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=FZZJ-JHTJW;fontColor=default;" vertex="1" connectable="0" parent="22Q7JOI0MpEQg2JFA-fp-27">
+          <mxGeometry x="-0.0788" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-24" target="22Q7JOI0MpEQg2JFA-fp-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-24" value="是否实现了 Aware&amp;nbsp; 相关接口" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fontFamily=FZZJ-JHTJW;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1480" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-26" value="填充相关资源" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=FZZJ-JHTJW;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;" vertex="1" parent="1">
+          <mxGeometry x="855" y="1480" width="265" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-29" target="22Q7JOI0MpEQg2JFA-fp-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-29" value="执行&lt;br&gt;BeanPostProcessor&amp;nbsp; 后置处理器&lt;br&gt;before 方法" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=FZZJ-JHTJW;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1640" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-31" value="AOP 的关键" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=FZZJ-JHTJW;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1665" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-32" value="用于对 Spring Bean 的扩展" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=FZZJ-JHTJW;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1505" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-33" target="22Q7JOI0MpEQg2JFA-fp-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-33" value="执行 @PostConstruct" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=FZZJ-JHTJW;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1800" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-35" target="22Q7JOI0MpEQg2JFA-fp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-35" value="实现 InitializingBean&amp;nbsp; 接口" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=FZZJ-JHTJW;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1960" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;fontColor=default;" edge="1" parent="1" source="22Q7JOI0MpEQg2JFA-fp-37" target="22Q7JOI0MpEQg2JFA-fp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-37" value="执行 init-method 方法" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=FZZJ-JHTJW;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2120" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-40" value="执行 init 相关方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontFamily=FZZJ-JHTJW;fontColor=default;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1805" width="30" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="22Q7JOI0MpEQg2JFA-fp-41" value="执行&lt;br&gt;BeanPostProcessor 的&lt;br&gt;after 方法" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=FZZJ-JHTJW;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2280" width="290" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
