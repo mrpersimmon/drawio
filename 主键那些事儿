@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T08:50:15.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LkERVeOFG6otNyyc7kBy" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T08:55:02.162Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ivn-8Z49Zf-_XXIzGu9E" version="21.3.4" type="github">
   <diagram name="第 1 页" id="93Gh0mRr_0w2bUcD3_mD">
     <mxGraphModel dx="649" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rcQswhKDms7Fh8AUbrFi-5" value="member_info" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="130" y="80" width="250" height="270" as="geometry" />
+          <mxGeometry x="130" y="80" width="250" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rcQswhKDms7Fh8AUbrFi-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-5">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -72,21 +72,8 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rcQswhKDms7Fh8AUbrFi-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-5">
-          <mxGeometry y="180" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rcQswhKDms7Fh8AUbrFi-19" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-18">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rcQswhKDms7Fh8AUbrFi-20" value="birthday（生日）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-18">
-          <mxGeometry x="30" width="220" height="30" as="geometry">
-            <mxRectangle width="220" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rcQswhKDms7Fh8AUbrFi-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-5">
-          <mxGeometry y="210" width="250" height="30" as="geometry" />
+          <mxGeometry y="180" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rcQswhKDms7Fh8AUbrFi-25" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-24">
           <mxGeometry width="30" height="30" as="geometry">
@@ -99,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rcQswhKDms7Fh8AUbrFi-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-5">
-          <mxGeometry y="240" width="250" height="30" as="geometry" />
+          <mxGeometry y="210" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rcQswhKDms7Fh8AUbrFi-50" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-49">
           <mxGeometry width="30" height="30" as="geometry">
@@ -107,6 +94,116 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rcQswhKDms7Fh8AUbrFi-51" value="update_time(更新时间）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-49">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-52" value="sku_info" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-52">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-54" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-53">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-55" value="pk_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-53">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-52">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-57" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-56">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-58" value="sku_name （商品名）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-56">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-52">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-60" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-59">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-61" value="price（价格）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-59">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-87" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-52">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-88" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-87">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-89" value="create_time（创建时间）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-87">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-52">
+          <mxGeometry y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-91" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-90">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-92" value="update_time (更新时间)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-90">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-77" value="sku_info" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-78" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-77">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-79" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-78">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-80" value="pk_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-78">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-77">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-82" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-81">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-83" value="sku_name （商品名）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-81">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-77">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-85" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-84">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcQswhKDms7Fh8AUbrFi-86" value="price（价格）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=FZZJ-JHTJW;fontSource=https%3A%2F%2Fgithub.com%2Fmrpersimmon%2Fmyblog%2Fblob%2Fmaster%2Fimg%2FFZZJ-JHTJW.TTF;fontSize=20;" vertex="1" parent="rcQswhKDms7Fh8AUbrFi-84">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
